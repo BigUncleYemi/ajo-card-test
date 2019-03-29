@@ -47,8 +47,10 @@ class App extends Component {
                 <div className="card-body my-auto">
                   <h2 className="card-title display-4">{this.state.data.entityName}</h2>
                   <h5 className="card-text mb-3">{this.state.data.txnCategory} Transaction</h5>
-                  <p>Range Failure Rate Outward: {this.state.data.rangeFailureRateOutward}</p>
-                  <p>Today Failure Rate Outward: {this.state.data.todayFailureRateOutward}</p>
+                  <p>Range Failure Rate Outward</p>
+                  <h1>{this.state.data.rangeFailureRateOutward}</h1>
+                  <p>Today Failure Rate Outward</p>
+                  <h1>{this.state.data.todayFailureRateOutward}</h1>
                 </div>
               </div>
             </div>
