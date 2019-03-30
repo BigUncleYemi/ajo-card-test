@@ -73,7 +73,9 @@ class App extends Component {
                     <span className="list-group-item d-flex justify-content-between align-items-center bg-dark text-white position-sticky">Today</span>
                     <ul className="list-group">
                       {Object.entries(this.state.data).filter( item => item[0].includes('today')).map((item, index)=> (
-                        <li key={index} className="list-group-item d-flex justify-content-between align-items-center">{item[0].toString()} <span className="badge">{item[1].toString()}</span> </li>
+                        <li key={index} className="list-group-item d-flex justify-content-between align-items-center">
+                          {item[0].toString()} <span className="badge">{item[1].toString()}</span> 
+                        </li>
                       ))}
                     </ul>
                   </div>
@@ -83,7 +85,9 @@ class App extends Component {
                     <span className="list-group-item d-flex justify-content-between align-items-center bg-dark text-white">Current Time Range</span>
                     <ul className="list-group">
                       {Object.entries(this.state.data).filter( item => item[0].includes('range')).map((item, index)=> (
-                        <li key={index} className="list-group-item d-flex justify-content-between align-items-center">{item[0].toString()} <span className="badge">{item[1].toString()}</span> </li>
+                        <li key={index} className="list-group-item d-flex justify-content-between align-items-center">
+                          {item[0].toString()} <span className="badge">{item[1].toString()}</span> 
+                        </li>
                       ))}
                     </ul>
                   </div>
