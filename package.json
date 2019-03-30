@@ -6,6 +6,7 @@
     "axios": "^0.18.0",
     "axois": "^1.0.0",
     "bootstrap": "^4.3.1",
+    "chart.js": "^2.8.0",
     "chartjs": "^0.3.24",
     "jquery": "^3.3.1",
     "popper": "^1.0.1",

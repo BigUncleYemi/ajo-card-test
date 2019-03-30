@@ -1,5 +1,5 @@
-import logo from './logo.svg';
+import spinner from './Spinner-1s-200px.svg';
 
 export {
-  logo
+  spinner
 };
