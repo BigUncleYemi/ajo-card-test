@@ -17,7 +17,7 @@ export default class PosGraph extends Component {
       const lineChartData = {
         labels: label,
         datasets: [{
-          label: this.props.data.graphs[0].graph.legend,
+          label: `${this.props.data.graphs[0].graph.legend} - failure rate(%)`,
           borderColor: "red",
           backgroundColor: "red",
           fill: false,
@@ -26,7 +26,7 @@ export default class PosGraph extends Component {
 					pointHoverRadius: 6,
           yAxisID: 'y-axis-1',
         }, {
-          label: this.props.data.graphs[1].graph.legend,
+          label: `${this.props.data.graphs[0].graph.legend} - failure rate(%)`,
           borderColor: "blue",
           backgroundColor: "blue",
           fill: false,
