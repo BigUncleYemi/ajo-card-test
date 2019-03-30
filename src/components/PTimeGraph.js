@@ -71,7 +71,7 @@ export default class PTimeGraph extends Component {
 
   render() {
     return (
-      <canvas  ref={input => this.graph = input}  width="400" height="400"></canvas>
+      <canvas  ref={input => this.graph = input}></canvas>
     )
   }
 }
